@@ -37,7 +37,7 @@ Built with React Native, TypeScript, and Tailwind CSS, this full-stack Food Deli
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **[Appwrite](https://jsm.dev/rn-food-appwrite)** is an open-source backend-as-a-service platform offering secure authentication (email/password, OAuth, SMS, magic links), databases, file storage with compression/encryption, real-time messaging, serverless functions, and static site hosting via Appwrite Sites—all managed through a unified console and microservices architecture.
+- **[Appwrite](https://appwrite.io/)** is an open-source backend-as-a-service platform offering secure authentication (email/password, OAuth, SMS, magic links), databases, file storage with compression/encryption, real-time messaging, serverless functions, and static site hosting via Appwrite Sites—all managed through a unified console and microservices architecture.
 
 - **[Expo](https://expo.dev/)** is an open-source platform for building universal native apps (Android, iOS, web) using JavaScript/TypeScript and React Native. It features file-based routing via Expo Router, fast refresh, native modules for camera/maps/notifications, over-the-air updates (EAS), and streamlined app deployment.
 
@@ -50,8 +50,6 @@ Built with React Native, TypeScript, and Tailwind CSS, this full-stack Food Deli
 - **[TypeScript](https://www.typescriptlang.org/)** is a statically-typed superset of JavaScript providing type annotations, interfaces, enums, generics, and enhanced tooling. It improves error detection, code quality, and scalability—ideal for robust, maintainable projects.
 
 - **[Zustand](https://github.com/pmndrs/zustand)** is a minimal, hook-based state management library for React and React Native. It lets you manage global state with zero boilerplate, no context providers, and excellent performance through selective state subscriptions.
-
-- **[Sentry](https://jsm.dev/rn-food-sentry)** is a powerful error tracking and performance monitoring tool for React Native apps. It helps you detect, diagnose, and fix issues in real-time to improve app stability and user experience.
 
 
 
@@ -90,8 +88,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/adrianhajdin/food_ordering.git
-cd food_ordering
+git clone https://github.com/gpsimi/food_ordering-mobile.git
+cd food_ordering-mobile
 ```
 
 **Installation**
@@ -110,8 +108,6 @@ Create a new file named `.env` in the root of your project and add the following
 EXPO_PUBLIC_APPWRITE_PROJECT_ID=
 EXPO_PUBLIC_APPWRITE_ENDPOINT=
 ```
-
-Replace the placeholder values with your actual credentials by signing up on the **[Appwrite](https://jsm.dev/rn-food-appwrite)** dashboard.
 
 **Running the Project**
 
